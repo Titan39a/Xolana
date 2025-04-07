@@ -4,13 +4,10 @@ function Footer() {
     return (
         <footer className="flex flex-col md:flex-row justify-center md:justify-between items-center gap-3 py-3 md:p-5 border-t border-[#27272a]">
             <h3 className="text-center text-white spacing tracking-widest">
-            Designed & Developed by <a className="underline font-bold" target="_blank" href="https://x.com/1omsharma" rel="noreferrer">Om Sharma</a>
+                {/* You can leave this empty or put custom text here */}
             </h3>
-            <div className="flex items-center justify-end gap-3">
-                <a href="https://www.linkedin.com/in/1omsharma/"><Linkedin /></a>
-                <a href="https://www.instagram.com/coder.om"><Instagram /></a>
-                <a href="https://x.com/1omsharma"><X /></a>
-            </div>
+            {/* Remove this div entirely if you don't want social links */}
+            {/* Or keep the structure and just remove the anchors */}
         </footer>
     )
 }
